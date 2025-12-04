@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0% 10%;
+    width: 80%;
+    height: 120px;
+    .header_logo {
+        color: white;
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size: 24px;
+    }
+    nav {
+        display: flex;
+        margin-right: 10%;
+        width: 33%;
+        color: white;
+        font-family: "DM Sans";
+        font-weight: 400;
+        li {
+            
+            margin-right: 20%;
+        }
+    }
+}
