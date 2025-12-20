@@ -1,0 +1,65 @@
+.principle {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding-top: 9.3%;
+    padding-bottom: 8.9%;
+    &_title {
+        margin: 0%;
+        padding-bottom: 12px;
+        color: rgba(34, 34, 34, 1);
+        font-family: 'DM Sans';
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    &_sub {
+        padding-bottom: 3.4%;
+        color: rgba(85, 85, 85, 1);
+        font-family: 'DM Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    &_list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_item {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        padding-right: 3.7%;
+        width: 17.2%;
+        &_img {
+            padding-bottom: 24px;
+        }
+        &_name {
+            padding-bottom: 16px;
+            color: rgba(34, 34, 34, 1);
+            font-family: 'DM Sans';
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+        &_txt {
+            color: rgba(85, 85, 85, 1);
+            font-family: 'DM Sans';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+    }
+}
+
+.principle_item:last-child {
+    padding-right: 0%;
+}

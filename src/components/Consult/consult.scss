@@ -11,6 +11,7 @@
         width: 50%;
         &_title {
             margin-top: 0%;
+            color: rgba(34, 34, 34, 1);
             font-family: 'DM Sans';
             font-weight: 700;
             font-style: bold;
@@ -19,6 +20,7 @@
             letter-spacing: 0%;
         }
         &_txt {
+            color: rgba(85, 85, 85, 1);
             font-family: 'DM Sans';
             font-weight: 400;
             font-size: 16px;
@@ -26,6 +28,7 @@
             letter-spacing: 0%;
         }
         &_foot {
+            color: rgba(85, 85, 85, 1);
             font-family: 'DM Sans';
             font-weight: 400;
             font-size: 20px;
