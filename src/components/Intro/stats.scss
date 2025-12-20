@@ -18,7 +18,10 @@
         background-color: white;
     }
     &_item {
-        display: flex;  
+        display: flex;
+        &_info {
+            padding: 4px 0px 4px 24px; 
+        }
         &_num {
             padding-bottom: 8px;
             font-family: 'DM Sans';

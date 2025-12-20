@@ -1,7 +1,7 @@
 import './App.css'
 import HeaderComponent from './components/Header/HeaderComponent.jsx'
 import IntroComponent from './components/Intro/IntroComponent.jsx'
-import StatsComponent from './components/Choice/ChoiceComponent.jsx'
+import ConsultComponent from './components/Consult/ConsultComponent.jsx'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <HeaderComponent />
       <IntroComponent />
-      <ChoiceComponent />
+      <ConsultComponent />
     </>
   )
 }
