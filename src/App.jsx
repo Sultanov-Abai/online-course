@@ -5,6 +5,7 @@ import ConsultComponent from './components/Consult/ConsultComponent.jsx'
 import PrincipleComponent from './components/Principle/PrincipleComponent.jsx'
 import CoursesComponent from './components/Courses/CoursesComponent.jsx'
 import EventsComponent from './components/Events/EventsComponent.jsx'
+import FooterComponent from './components/Footer/FooterComponent.jsx'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <PrincipleComponent />
       <CoursesComponent />
       <EventsComponent />
+      <FooterComponent />
     </>
   )
 }
